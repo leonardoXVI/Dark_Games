@@ -4,17 +4,31 @@
     box-sizing: border-box;
 }
 
+header ,
+section h2{
+    font-family: 'Bungee', cursive;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 header{
+    padding: 16px 0.;
     background-color: #182C61;
     color: #ECF0F1;
+}
+
+header h1,
+section h2{
+    font-weight: normal;
 }
 
 header nav li{
     display: inline;
     margin-left: 16px;
-    font-size: 24px;
+    font-size: 16px;
 }
-
 
 header nav li a{ 
     color:#ECF0F1;
@@ -48,10 +62,12 @@ section .container{
 
 section{
     padding: 24px 0;
+    color:#182C61;
 }
 
 section h2{
     margin-bottom: 16px;
+    color:#182C61;
 }
 
 section p{
